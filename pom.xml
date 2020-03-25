@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.epam_labs.kosyiev</groupId>
   <artifactId>DEMO3</artifactId>
-  <version>2.2.0.BUILD-RELEASE</version>
+  <version>2.2.0.BUILD-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -328,13 +328,13 @@
   <distributionManagement>
     <repository>
         <id>my_release</id>
-        <name>releases</name>
+        <name>release</name>
         <url> https://epamkos.jfrog.io/artifactory/demo-release/</url>
     </repository>
 
     <snapshotRepository>
-        <id>my_snapshots</id>
-        <name>snapshots</name>
+        <id>my_snapshot</id>
+        <name>snapshot</name>
         <url> https://epamkos.jfrog.io/artifactory/demo-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
