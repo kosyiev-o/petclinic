@@ -329,13 +329,13 @@
     <repository>
         <id>my_release</id>
         <name>releases</name>
-        <url>https://epamkosyiev.jfrog.io/artifactory/demo3_artifacts//</url>
+        <url> https://epamkos.jfrog.io/artifactory/demo-release/</url>
     </repository>
 
     <snapshotRepository>
         <id>my_snapshots</id>
         <name>snapshots</name>
-        <url>https://epamkosyiev.jfrog.io/artifactory/demo-snapshot/</url>
+        <url> https://epamkos.jfrog.io/artifactory/demo-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 
